@@ -1,0 +1,23 @@
+.wrapper {
+    box-sizing: border-box;
+    padding: 18px 10px;
+    font-size: 15px;
+    width: 100%;
+    transition: all .9s;
+}
+
+.wrapper > span {
+    display: inline-block;
+    margin-bottom: 6px;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+.wrapper::after {
+    content: '';
+    display: block;
+    background-color: rgba(207, 207, 207, 0.342);
+    width: 85%;
+    height: 1px;
+    margin: 0 auto;
+}

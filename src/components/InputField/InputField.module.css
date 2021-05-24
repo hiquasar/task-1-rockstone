@@ -1,0 +1,53 @@
+.wrapper {
+    display: flex;
+
+    padding: 20px 10px 0;
+    margin-bottom: 15px;
+}
+
+.inputInner::after {
+    content: '';
+    display: block;
+    background-color: rgba(207, 207, 207, 0.911);
+    width: 60%;
+    height: 1px;
+    margin: 0 auto;
+}
+
+.noticeTextarea {
+    width: 70%;
+    margin-right: 10px;
+}
+
+.noticeTextareaItem {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 8px 10px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(102, 102, 102, 0.349);
+    border-radius: 15px;
+    outline: none;
+    resize: none;
+}
+
+.sendingBtn {
+    width: 30%;
+}
+
+.sendingBtnItem {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(102, 102, 102, 0.226);
+    border-radius: 15px;
+    color: rgba(51, 51, 51, 0.801);
+    background-color: rgb(235, 235, 235);
+    outline: none;
+}
+
+.noticeTextarea::after, .noticeTextarea::before {
+    margin: 0;
+    padding: 0;
+}
